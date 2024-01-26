@@ -7,7 +7,7 @@ import Brandingimg from "../assets/images/web.p/Branding-img.webp";
 const RealStories = () => {
     return (
         <>
-            <div className='lg:py-[105px] md:py-[70px] py-[60px]'>
+            <div className='lg:py-[105px] md:py-[70px] sm:py-[60px] py-[30px]'>
                 <div id="Blog&News" className="container xl:max-w-[1218px] lg:px-3 px-6 mx-auto">
                     <div className="flex flex-row flex-wrap relative lg:gap-0 gap-8">
                         <PinkComma />

@@ -8,7 +8,7 @@ import Serveimg6 from '../assets/images/web.p/serve-img6.webp';
 
 const ServeWebsite = () => {
     return (
-        <div className='lg:pt-[84px] pt-[50px]'>
+        <div className='lg:pt-[84px] sm:pt-[50px] pt-[30px]'>
             <div className='container mx-auto lg:px-3 px-6 xl:max-w-[1218px]'>
                 <div className='flex flex-row flex-wrap items-center'>
                     <div className='lg:w-1/2 w-full' data-aos="fade-right">

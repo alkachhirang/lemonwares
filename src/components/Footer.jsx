@@ -50,7 +50,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                        <p className='ff_inter text-[16px] leading-[200%] flex items-center font-normal text-[#ffffff]'>Built by Jeremiah with <span className='m-2'> <Heart /></span>  in Lagos. Copyright 2021</p>
+                        <p className='ff_inter text-[16px] leading-[200%] flex items-center font-normal text-[#ffffff]'>Built by Jeremiah with 🤍 in Lagos. Copyright 2021</p>
                 </div>
 
             </div>

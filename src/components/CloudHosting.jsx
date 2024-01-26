@@ -39,7 +39,7 @@ const CloudHosting = () => {
     ];
     return (
         <>
-            <div className="lg:pt-[79px] pt-[60px] lg:pb-[133px] sm:pb-[60px] pb-[50px]">
+            <div className="lg:pt-[79px] pt-[35px] md:pt-[60px] lg:pb-[133px] sm:pb-[60px] pb-[50px]">
                 <div id="about" className="container xl:max-w-[1308px] lg:px-3 px-6 mx-auto">
                 <div className="flex flex-row flex-wrap lg:pb-[100px] sm:pb-[70px] pb-[50px]">
                         <div className="lg:w-6/12 w-full" data-aos="fade-right">

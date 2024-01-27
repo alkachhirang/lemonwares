@@ -9,7 +9,7 @@ import Serveimg6 from '../assets/images/web.p/serve-img6.webp';
 const ServeWebsite = () => {
     return (
         <div className='lg:pt-[84px] sm:pt-[50px] pt-[30px]'>
-            <div className='container mx-auto lg:px-3 px-6 xl:max-w-[1218px]'>
+            <div className='container mx-auto xl:px-3 px-6 xl:max-w-[1218px]'>
                 <div className='flex flex-row flex-wrap items-center'>
                     <div className='lg:w-1/2 w-full' data-aos="fade-right">
                         <p className='text-[#18191F] sm:text-[41px] text-[28px] md:text-[48px] font-extrabold ff_inter leading-[133%] lg:max-w-[445px] m-0 mb-[8px] text-center '>We serve over 100

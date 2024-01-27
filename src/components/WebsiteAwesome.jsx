@@ -7,7 +7,7 @@ import Triangle3 from '../assets/images/web.p/web-triangle3.webp';
 const WebsiteAwesome = () => {
     return (
         <div className='lg:pt-[106px] lg:pb-[110px] sm:py-[70px] py-[50px]'>
-            <div id='contact' className='container xl:max-w-[1256px] lg:px-3 px-6 mx-auto relative' data-aos="fade-down">
+            <div id='contact' className='container xl:max-w-[1256px] xl:px-3 px-6 mx-auto relative' data-aos="fade-down">
                 <img src={Triangle1} alt="Triangle1" className='absolute max-w-[40px] sm:max-w-[70px] w-full right-[7%] sm:right-[-1%] bottom-[8%]' />
                 <img src={Triangle2} alt="Triangle2" className='absolute max-w-[40px] w-full left-[32%]' />
                 <img src={Triangle3} alt="Triangle3" className='absolute max-w-[40px] w-full bottom-[20%] left-[6%] sm:left-[0]' />
@@ -22,9 +22,7 @@ const WebsiteAwesome = () => {
                             </a>
                         </button>
                     </div>
-
                 </div>
-
             </div>
 
         </div>

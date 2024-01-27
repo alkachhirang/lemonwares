@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <div>
             <div className='bg-[#B00000] md:pt-[64px] md:pb-[80px] py-[50px]'>
-                <div className='container xl:max-w-[1296px] lg:px-3 px-6 mx-auto'>
-                    <div className='flex flex-wrap flex-row mb-[40px] md:mb-[70px] lg:mb-[104px]'>
+                <div className='container xl:max-w-[1296px] xl:px-3 px-6 mx-auto'>
+                    <div className='flex flex-wrap flex-row mb-[20px] md:mb-[70px] lg:mb-[104px]'>
                         <div className='lg:w-4/12 w-full'>
                             <img src={Footerlogo} alt="Footerlogo" className='max-w-[120px] w-full cursor-pointer' />
                             <p className='ff_inter font-normal text-[16px] text-[#E6E6E6] lg:max-w-[296px] leading-[200%] m-0 mt-[16px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</p>

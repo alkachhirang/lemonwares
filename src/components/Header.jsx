@@ -13,17 +13,14 @@ const Tabs = () => {
     return (
         <>
             <ul
-                className="inline-flex mb-0 list-none flex-wrap sm:pt-[80px] pt-[40px] flex-row after:absolute relative after:h-[1px] after:bottom-0 after:left-[1%] after:right-[1%] after:bg-[#e5e5e5] "
+                className="inline-flex mb-0 list-none flex-wrap sm:pt-[60px] lg:pt-[80px] pt-[40px] flex-row after:absolute relative after:h-[1px] after:bottom-0 after:left-[1%] after:right-[1%] after:bg-[#e5e5e5] "
                 role="tablist"
             >
                 <li className="pb-1 relative">
                     <a
-                        className={
-                            "text-[15px] font-semibold ff_poppins leading-normal " +
-                            (openTab === 1
-                                ? "text-[#B00000]"
-                                : "text-[rgba(214,212,212,0.88)]")
-                        }
+                        className={`${
+              openTab === 1 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(1);
@@ -35,20 +32,16 @@ const Tabs = () => {
                         Hosting
                     </a>
                     <div
-                        className={
-                            "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[2]" +
-                            (openTab === 1 ? "" : "bg-[#b00000]")
-                        }
+                        className={`${
+              openTab === 1 ? "bg-[#b00000]" : ""
+                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
                     ></div>
                 </li>
                 <li className="ml-[23px] pb-1 relative">
                     <a
-                        className={
-                            "text-[15px] font-semibold ff_poppins leading-normal " +
-                            (openTab === 2
-                                ? "text-[#B00000]"
-                                : "text-[rgba(214,212,212,0.88)]")
-                        }
+                        className={`${
+              openTab === 2 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(2);
@@ -60,20 +53,16 @@ const Tabs = () => {
                         Domain
                     </a>
                     <div
-                        className={
-                            "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[3]" +
-                            (openTab === 2 ? "" : "bg-[#b00000]")
-                        }
+                        className={`${
+              openTab === 2 ? "bg-[#b00000]" : ""
+                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
                     ></div>
                 </li>
                 <li className="ml-[18px] pb-1 relative">
                     <a
-                        className={
-                            "text-[15px] font-semibold ff_poppins leading-normal " +
-                            (openTab === 3
-                                ? "text-[#B00000]"
-                                : "text-[rgba(214,212,212,0.88)]")
-                        }
+                        className={`${
+              openTab === 3 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(3);
@@ -85,20 +74,16 @@ const Tabs = () => {
                         SEO
                     </a>
                     <div
-                        className={
-                            "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[3]" +
-                            (openTab === 3 ? "" : "bg-[#b00000]")
-                        }
+                        className={`${
+              openTab === 3 ? "bg-[#b00000]" : ""
+                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
                     ></div>
                 </li>
                 <li className="ml-[15px] pb-1 relative">
                     <a
-                        className={
-                            "text-[15px] font-semibold ff_poppins leading-normal " +
-                            (openTab === 4
-                                ? "text-[#B00000]"
-                                : "text-[rgba(214,212,212,0.88)]")
-                        }
+                        className={`${
+              openTab === 4 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(4);
@@ -110,10 +95,9 @@ const Tabs = () => {
                         Email
                     </a>
                     <div
-                        className={
-                            "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[3]" +
-                            (openTab === 4 ? "" : "bg-[#b00000]")
-                        }
+                        className={`${
+              openTab === 4 ? "bg-[#b00000]" : ""
+                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
                     ></div>
                 </li>
             </ul>
@@ -315,8 +299,8 @@ const Header = () => {
     }
     return (
         <div>
-            <div className='container xl:max-w-[1240px] mx-auto lg:px-3 px-6'>
-                <div className='flex justify-between items-center relative z-[3] pt-[41px]'>
+            <div className='container xl:max-w-[1240px] mx-auto xl:px-3 px-6'>
+                <div className='flex justify-between items-center relative z-[3] pt-[25px] md:pt-[41px]'>
                     <div className='flex items-center gap-[90px] xl:gap-[135px]'>
                         <div className='flex gap-[55px] xl:gap-[65px] items-center'>
                             <img src={Navlogo} alt="Navlogo" className='sm:max-w-[90px] max-w-[78px] w-full cursor-pointer' />
@@ -334,7 +318,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='flex items-center gap-[20px] lg:gap-[30px] lg:pr-[95px]'>
+                    <div className='flex items-center gap-[20px] lg:gap-[30px] lg:pr-[60px]'>
                         <div className='flex items-center gap-[31px]'>
                             <p><a href='#account' onClick={() => setNav(!nav)} className='m-0 ff_poppins font-semibold text-[15px] text-[#000000] leading-[100%] hover:after:w-[72%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-[#B00000] after:h-[2px] relative after:left-[0] after:bottom-[-4px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear lg:block hidden'>Account</a></p>
                             <div className='bg-[#DAd8d8] w-[1px] h-[19px] lg:block hidden'></div>
@@ -351,246 +335,6 @@ const Header = () => {
                     </div>
                 </div>
             </div >
-
-            {/* <div id='account' className="container xl:max-w-[1240px] lg:px-3 px-6 mx-auto lg:mt-20 sm:mt-14 mt-10">
-                <nav className="flex items-center">
-                    <button
-                        className={`ff_poppins text-[15px] font-semibold leading-normal pr-[23px] pb-1 ${activeTab === "home"
-                            ? "text-[#B00000] border-b border-[#B00000]"
-                            : "text-[#DBD9D9] border-b border-[#E5E5E5]"
-                            }`}
-                        onClick={() => handleTabClick("home")}
-                    >
-                        Hosting
-                    </button>
-                    <button
-                        className={`ff_poppins text-[15px] font-semibold leading-normal pr-[18px] pb-1 ${activeTab === "Domain"
-                            ? "text-[#B00000] border-b border-[#B00000]"
-                            : "text-[#DBD9D9] border-b border-[#E5E5E5]"
-                            }`}
-                        onClick={() => handleTabClick("Domain")}
-                    >
-                        Domain
-                    </button>
-                    <button
-                        className={`ff_poppins text-[15px] font-semibold leading-normal pr-[15px] pb-1 ${activeTab === "SEO"
-                            ? "text-[#B00000] border-b border-[#B00000]"
-                            : "text-[#DBD9D9] border-b border-[#E5E5E5]"
-                            }`}
-                        onClick={() => handleTabClick("SEO")}
-                    >
-                        SEO
-                    </button>
-                    <button
-                        className={`ff_poppins text-[15px] font-semibold leading-normal pb-1 ${activeTab === "Email"
-                            ? "text-[#B00000] border-b border-[#B00000]"
-                            : "text-[#DBD9D9] border-b border-[#E5E5E5]"
-                            }`}
-                        onClick={() => handleTabClick("Email")}
-                    >
-                        Email
-                    </button>
-                </nav>
-                {activeTab === "home" && (
-                    <div className="flex flex-wrap flex-row justify-between mx-auto lg:gap-0 md:gap-10 sm:gap-7 gap-5">
-                        <div className="lg:w-1/2 w-full" data-aos="fade-right">
-                            <h1 className="lg:max-w-[608px] text-[#2E2E2E] xl:text-[64px] md:text-[40px] text-[30px] ff_poppins font-bold leading-[121.099%] lg:mb-[34px] mb-5 mt-[26px]">
-                                Premium Web Hosting for Your Website
-                            </h1>
-                            <p className="text-[#808080] text-[16px] ff_inter font-normal leading-[175%] tracking-[0.8] xl:mb-[60px] lg:mb-10 md:mb-7 mb-4 lg:max-w-[448px]">
-                                Blazing fast web hosting for individuals and businesses of all
-                                sizes backed by 24x7x365 Support.
-                            </p>
-                            <div className="flex items-center gap-6">
-                                <a
-                                    href=""
-                                    className="text-white ff_poppins text-[14px] font-normal leading-[171.629%] p-3 bg-[#B00000] hover:shadow-[0_2px_15px_rgba(176,_0,_0,_1)] transition-all ease-linear duration-300 rounded-[8px] shadow-[0px_0px_64px_0px_rgba(176,_0,_0,_0.30)] flex justify-center items-center gap-2.5 w-[160px]"
-                                >
-                                    Create an Account
-                                </a>
-                                <a
-                                    href=""
-                                    className="text-black ff_poppins text-[14px] font-normal leading-[171.629%] py-[11px] hover:shadow-[0_2px_15px_rgba(176,_0,_0,_1)] transition-all ease-linear duration-300 px-3 bg-transparent border-black border rounded-[8px] flex justify-center items-center gap-2 w-[160px]"
-                                >
-                                    Choose your plan
-                                </a>
-                            </div>
-                        </div>
-                        <div className="lg:w-[41.5%] w-full lg:flex justify-center xl:px-0 px-5" data-aos="fade-left">
-                            <div className="relative lg:max-w-[501px]">
-                                <img
-                                    src={Girlimg}
-                                    alt="Girlimg"
-                                    className="lg:max-w-[501px] w-full xl:translate-y-[-15px]"
-                                />
-                                <img
-                                    src={Triangle3}
-                                    alt="Triangle3"
-                                    className="absolute top-1/2 -translate-x-[65%] w-[40px]"
-                                />
-                                <img
-                                    src={Triangle1}
-                                    alt="Triangle1"
-                                    className="absolute top-[12%] right-0 translate-x-[65%] w-[40px]"
-                                />
-                                <img
-                                    src={Triangle1}
-                                    alt="Triangle1"
-                                    className="absolute top-[75%] right-0 translate-x-[30%] xl:w-[72px] w-[55px]"
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                )}
-                {activeTab === "Domain" && <div className="flex flex-wrap flex-row justify-between mx-auto lg:gap-0 md:gap-10 sm:gap-7 gap-5">
-                    <div className="lg:w-1/2 w-full">
-                        <h1 className="lg:max-w-[608px] text-[#2E2E2E] xl:text-[64px] md:text-[40px] text-[30px] ff_poppins font-bold leading-[121.099%] lg:mb-[34px] mb-5 mt-[26px]">
-                            Premium Web Hosting for Your Website
-                        </h1>
-                        <p className="text-[#808080] text-[16px] ff_inter font-normal leading-[175%] tracking-[0.8] xl:mb-[60px] lg:mb-10 md:mb-7 mb-4 lg:max-w-[448px]">
-                            Blazing fast web hosting for individuals and businesses of all
-                            sizes backed by 24x7x365 Support.
-                        </p>
-                        <div className="flex items-center gap-6">
-                            <a
-                                href=""
-                                className="text-white ff_poppins text-[14px] font-normal leading-[171.629%] p-3 bg-[#B00000] rounded-[8px] shadow-[0px_0px_64px_0px_rgba(176,_0,_0,_0.30)] flex justify-center items-center gap-2.5 w-[160px]"
-                            >
-                                Create an Account
-                            </a>
-                            <a
-                                href=""
-                                className="text-black ff_poppins text-[14px] font-normal leading-[171.629%] py-[11px] px-3 bg-transparent border-black border rounded-[8px] flex justify-center items-center gap-2 w-[160px]"
-                            >
-                                Choose your plan
-                            </a>
-                        </div>
-                    </div>
-                    <div className="lg:w-[41.5%] w-full lg:flex justify-center xl:px-0 px-5">
-                        <div className="relative lg:max-w-[501px]">
-                            <img
-                                src={Girlimg}
-                                alt="Girlimg"
-                                className="lg:max-w-[501px] w-full xl:translate-y-[-15px]"
-                            />
-                            <img
-                                src={Triangle3}
-                                alt="Triangle3"
-                                className="absolute top-1/2 -translate-x-[65%] w-[40px]"
-                            />
-                            <img
-                                src={Triangle1}
-                                alt="Triangle1"
-                                className="absolute top-[12%] right-0 translate-x-[65%] w-[40px]"
-                            />
-                            <img
-                                src={Triangle1}
-                                alt="Triangle1"
-                                className="absolute top-[75%] right-0 translate-x-[30%] xl:w-[72px] w-[55px]"
-                            />
-                        </div>
-                    </div>
-                </div>}
-                {activeTab === "SEO" && <div className="flex flex-wrap flex-row justify-between mx-auto lg:gap-0 md:gap-10 sm:gap-7 gap-5">
-                    <div className="lg:w-1/2 w-full">
-                        <h1 className="lg:max-w-[608px] text-[#2E2E2E] xl:text-[64px] md:text-[40px] text-[30px] ff_poppins font-bold leading-[121.099%] lg:mb-[34px] mb-5 mt-[26px]">
-                            Premium Web Hosting for Your Website
-                        </h1>
-                        <p className="text-[#808080] text-[16px] ff_inter font-normal leading-[175%] tracking-[0.8] xl:mb-[60px] lg:mb-10 md:mb-7 mb-4 lg:max-w-[448px]">
-                            Blazing fast web hosting for individuals and businesses of all
-                            sizes backed by 24x7x365 Support.
-                        </p>
-                        <div className="flex items-center gap-6">
-                            <a
-                                href=""
-                                className="text-white ff_poppins text-[14px] font-normal leading-[171.629%] p-3 bg-[#B00000] rounded-[8px] shadow-[0px_0px_64px_0px_rgba(176,_0,_0,_0.30)] flex justify-center items-center gap-2.5 w-[160px]"
-                            >
-                                Create an Account
-                            </a>
-                            <a
-                                href=""
-                                className="text-black ff_poppins text-[14px] font-normal leading-[171.629%] py-[11px] px-3 bg-transparent border-black border rounded-[8px] flex justify-center items-center gap-2 w-[160px]"
-                            >
-                                Choose your plan
-                            </a>
-                        </div>
-                    </div>
-                    <div className="lg:w-[41.5%] w-full lg:flex justify-center xl:px-0 px-5">
-                        <div className="relative lg:max-w-[501px]">
-                            <img
-                                src={Girlimg}
-                                alt="Girlimg"
-                                className="lg:max-w-[501px] w-full xl:translate-y-[-15px]"
-                            />
-                            <img
-                                src={Triangle3}
-                                alt="Triangle3"
-                                className="absolute top-1/2 -translate-x-[65%] w-[40px]"
-                            />
-                            <img
-                                src={Triangle1}
-                                alt="Triangle1"
-                                className="absolute top-[12%] right-0 translate-x-[65%] w-[40px]"
-                            />
-                            <img
-                                src={Triangle1}
-                                alt="Triangle1"
-                                className="absolute top-[75%] right-0 translate-x-[30%] xl:w-[72px] w-[55px]"
-                            />
-                        </div>
-                    </div>
-                </div>}
-                {activeTab === "Email" && <div className="flex flex-wrap flex-row justify-between mx-auto lg:gap-0 md:gap-10 sm:gap-7 gap-5">
-                    <div className="lg:w-1/2 w-full">
-                        <h1 className="lg:max-w-[608px] text-[#2E2E2E] xl:text-[64px] md:text-[40px] text-[30px] ff_poppins font-bold leading-[121.099%] lg:mb-[34px] mb-5 mt-[26px]">
-                            Premium Web Hosting for Your Website
-                        </h1>
-                        <p className="text-[#808080] text-[16px] ff_inter font-normal leading-[175%] tracking-[0.8] xl:mb-[60px] lg:mb-10 md:mb-7 mb-4 lg:max-w-[448px]">
-                            Blazing fast web hosting for individuals and businesses of all
-                            sizes backed by 24x7x365 Support.
-                        </p>
-                        <div className="flex items-center gap-6">
-                            <a
-                                href=""
-                                className="text-white ff_poppins text-[14px] font-normal leading-[171.629%] p-3 bg-[#B00000] rounded-[8px] shadow-[0px_0px_64px_0px_rgba(176,_0,_0,_0.30)] flex justify-center items-center gap-2.5 w-[160px]"
-                            >
-                                Create an Account
-                            </a>
-                            <a
-                                href=""
-                                className="text-black ff_poppins text-[14px] font-normal leading-[171.629%] py-[11px] px-3 bg-transparent border-black border rounded-[8px] flex justify-center items-center gap-2 w-[160px]"
-                            >
-                                Choose your plan
-                            </a>
-                        </div>
-                    </div>
-                    <div className="lg:w-[41.5%] w-full lg:flex justify-center xl:px-0 px-5">
-                        <div className="relative lg:max-w-[501px]">
-                            <img
-                                src={Girlimg}
-                                alt="Girlimg"
-                                className="lg:max-w-[501px] w-full xl:translate-y-[-15px]"
-                            />
-                            <img
-                                src={Triangle3}
-                                alt="Triangle3"
-                                className="absolute top-1/2 -translate-x-[65%] w-[40px]"
-                            />
-                            <img
-                                src={Triangle1}
-                                alt="Triangle1"
-                                className="absolute top-[12%] right-0 translate-x-[65%] w-[40px]"
-                            />
-                            <img
-                                src={Triangle1}
-                                alt="Triangle1"
-                                className="absolute top-[75%] right-0 translate-x-[30%] xl:w-[72px] w-[55px]"
-                            />
-                        </div>
-                    </div>
-                </div>}
-            </div> */}
             <div
                 id="account"
                 className="container mx-auto xl:max-w-[1239px] xl:px-3 px-6"

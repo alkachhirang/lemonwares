@@ -6,7 +6,7 @@ const GetStarted = () => {
     const [line, setLine] = useState(true);
     return (
         <>
-            <div id="ourservice" className="container max-w-[1121px] mx-auto lg:px-3 px-6">
+            <div id="ourservice" className="container max-w-[1121px] mx-auto xl:px-3 px-6">
                 <div className="flex justify-center items-center flex-col" data-aos="fade-down">
                     <h2 className="text-black text-center ff_poppins font-semibold lg:text-[50px] sm:text-[40px] text-[21px] leading-[120%] lg:max-w-[650px] sm:mb-[38px] mb-[20px]">
                         Ready to get started with Lemon Wares?

@@ -15,8 +15,8 @@ const GetStarted = () => {
                         Choose the package that suits you
                     </p>
                 </div>
-                <div className="flex sm:gap-[31px] gap-[20px] items-center justify-center sm:pt-[57px] pt-[30px] sm:pb-[71px] pb-[40px]" data-aos="fade-down">
-                    <p className="text-black ff_poppins sm:text-[25px] text-[20px] leading-[100%] font-normal">
+                <div className="flex sm:gap-[31px] gap-[14px] items-center justify-center sm:pt-[57px] pt-[30px] sm:pb-[71px] pb-[40px]" data-aos="fade-down">
+                    <p className="text-black ff_poppins sm:text-[25px] text-[18px] leading-[100%] font-normal">
                         Monthly
                     </p>
                     <div
@@ -24,13 +24,13 @@ const GetStarted = () => {
                         className={`${show
                             ? "after:translate-x-0"
                             : "sm:after:translate-x-[140%] after:translate-x-[220%] bg-black"
-                            } sm:w-[93px] w-[83px] cursor-pointer sm:h-[50px] h-[40px] rounded-[73px] bg-[#B00000] relative after:absolute after:bg-white sm:after:w-[30px] after:w-[20px] sm:after:h-[30px] after:h-[20px] after:rounded-[30px]  after:transition-all after:ease-in-out after:duration-500 after:top-[10px] after:bottom-[10px] after:left-[9px]`}
+                            } sm:w-[93px] w-[71px] cursor-pointer sm:h-[50px] h-[40px] rounded-[73px] bg-[#B00000] relative after:absolute after:bg-white sm:after:w-[30px] after:w-[20px] sm:after:h-[30px] after:h-[20px] after:rounded-[30px]  after:transition-all after:ease-in-out after:duration-500 after:top-[10px] after:bottom-[10px] after:left-[9px]`}
                     ></div>
                     <div className="flex gap-[17px] ">
-                        <p className="text-black ff_poppins font-normal sm:text-[25px] text-[20px] leading-[100%] ">
+                        <p className="text-black ff_poppins font-normal sm:text-[25px] text-[18px] leading-[100%] ">
                             Yearly
                         </p>
-                        <button className="text-black sm:block hidden ff_poppins text-[10px] leading-[90%] font-medium py-[7px] px-[8px] rounded-[8px] bg-[#FFE87A] ">
+                        <button className="text-black ff_poppins text-nowrap text-[10px] leading-[90%] font-medium py-[7px] px-[8px] rounded-[8px] bg-[#FFE87A] ">
                             20% discount
                         </button>
                     </div>

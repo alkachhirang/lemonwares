@@ -18,9 +18,8 @@ const Tabs = () => {
             >
                 <li className="pb-1 relative">
                     <a
-                        className={`${
-              openTab === 1 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
-                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
+                        className={`${openTab === 1 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(1);
@@ -32,16 +31,14 @@ const Tabs = () => {
                         Hosting
                     </a>
                     <div
-                        className={`${
-              openTab === 1 ? "bg-[#b00000]" : ""
-                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
+                        className={`${openTab === 1 ? "bg-[#b00000]" : ""
+                            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[2]`}
                     ></div>
                 </li>
                 <li className="ml-[23px] pb-1 relative">
                     <a
-                        className={`${
-              openTab === 2 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
-                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
+                        className={`${openTab === 2 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(2);
@@ -53,16 +50,14 @@ const Tabs = () => {
                         Domain
                     </a>
                     <div
-                        className={`${
-              openTab === 2 ? "bg-[#b00000]" : ""
-                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
+                        className={`${openTab === 2 ? "bg-[#b00000]" : ""
+                            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
                     ></div>
                 </li>
                 <li className="ml-[18px] pb-1 relative">
                     <a
-                        className={`${
-              openTab === 3 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
-                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
+                        className={`${openTab === 3 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(3);
@@ -74,16 +69,14 @@ const Tabs = () => {
                         SEO
                     </a>
                     <div
-                        className={`${
-              openTab === 3 ? "bg-[#b00000]" : ""
-                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
+                        className={`${openTab === 3 ? "bg-[#b00000]" : ""
+                            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
                     ></div>
                 </li>
                 <li className="ml-[15px] pb-1 relative">
                     <a
-                        className={`${
-              openTab === 4 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
-                        } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
+                        className={`${openTab === 4 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+                            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
                         onClick={(e) => {
                             e.preventDefault();
                             setOpenTab(4);
@@ -95,9 +88,8 @@ const Tabs = () => {
                         Email
                     </a>
                     <div
-                        className={`${
-              openTab === 4 ? "bg-[#b00000]" : ""
-                        } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
+                        className={`${openTab === 4 ? "bg-[#b00000]" : ""
+                            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
                     ></div>
                 </li>
             </ul>
@@ -300,7 +292,7 @@ const Header = () => {
     return (
         <div>
             <div className='container xl:max-w-[1240px] mx-auto xl:px-3 px-6'>
-                <div className='flex justify-between items-center relative z-[3] pt-[25px] md:pt-[41px]'>
+                <div className='flex justify-between items-center relative z-[4] pt-[25px] md:pt-[41px]'>
                     <div className='flex items-center gap-[90px] xl:gap-[135px]'>
                         <div className='flex gap-[55px] xl:gap-[65px] items-center'>
                             <img src={Navlogo} alt="Navlogo" className='sm:max-w-[90px] max-w-[78px] w-full cursor-pointer' />

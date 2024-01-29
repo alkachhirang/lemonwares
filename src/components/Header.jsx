@@ -133,7 +133,7 @@ const Tabs = () => {
                                 <img
                                     src={Girlimg}
                                     alt="Girlimg"
-                                    className="w-full sm:h-[504px] h-[400px] max-w-[501px] object-cover object-center translate-y-[-9px]"
+                                    className="w-full sm:h-[504px] max-w-[501px] object-cover object-center translate-y-[-9px]"
                                 />
                             </div>
                         </div>
@@ -179,7 +179,7 @@ const Tabs = () => {
                                 <img
                                     src={Girlimg}
                                     alt="Girlimg"
-                                    className="w-full sm:h-[504px] h-[400px] max-w-[501px] object-cover object-center translate-y-[-9px]"
+                                    className="w-full sm:h-[504px] max-w-[501px] object-cover object-center translate-y-[-9px]"
                                 />
                             </div>
                         </div>
@@ -225,7 +225,7 @@ const Tabs = () => {
                                 <img
                                     src={Girlimg}
                                     alt="Girlimg"
-                                    className="w-full sm:h-[504px] h-[400px] max-w-[501px] object-cover object-center translate-y-[-9px]"
+                                    className="w-full sm:h-[504px] max-w-[501px] object-cover object-center translate-y-[-9px]"
                                 />
                             </div>
                         </div>
@@ -271,7 +271,7 @@ const Tabs = () => {
                                 <img
                                     src={Girlimg}
                                     alt="Girlimg"
-                                    className="w-full sm:h-[504px] h-[400px] max-w-[501px] object-cover object-center translate-y-[-9px]"
+                                    className="w-full sm:h-[504px] max-w-[501px] object-cover object-center translate-y-[-9px]"
                                 />
                             </div>
                         </div>

@@ -23,7 +23,7 @@ const GetStarted = () => {
                         onClick={() => setshow(!show)}
                         className={`${show
                             ? "after:translate-x-0"
-                            : "sm:after:translate-x-[140%] after:translate-x-[220%] bg-black"
+                            : "sm:after:translate-x-[140%] after:translate-x-[110%] bg-black"
                             } sm:w-[93px] w-[71px] cursor-pointer sm:h-[50px] h-[40px] rounded-[73px] bg-[#B00000] relative after:absolute after:bg-white sm:after:w-[30px] after:w-[20px] sm:after:h-[30px] after:h-[20px] after:rounded-[30px]  after:transition-all after:ease-in-out after:duration-500 after:top-[10px] after:bottom-[10px] after:left-[9px]`}
                     ></div>
                     <div className="flex gap-[17px] ">

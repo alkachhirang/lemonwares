@@ -60,42 +60,42 @@ const CloudHosting = () => {
                                 <img
                                         src={cloudimg1}
                                         alt="cloudimg1"
-                                    className="w-full sm:h-[30px] h-[20px] sm:max-w-[140.714px] max-w-[120px] "
+                                    className="w-full sm:h-[30px] sm:max-w-[140.714px] max-w-[120px] "
                                 />
                             </div>
                                 <div className="sm:w-4/12 w-6/12 sm:mb-[55px] mb-0 flex lg:justify-end justify-center">
                                 <img
                                         src={cloudimg2}
                                         alt="cloudimg2"
-                                    className="w-full sm:h-[50px] h-[40px] sm:max-w-[125.424px] max-w-[120px]"
+                                    className="w-full sm:h-[50px] sm:max-w-[125.424px] max-w-[120px]"
                                 />
                             </div>
                                 <div className="sm:w-4/12 w-6/12 sm:mb-[55px] mb-0 flex lg:justify-end justify-center">
                                 <img
                                         src={cloudimg3}
                                         alt="cloudimg3"
-                                    className="w-full sm:h-[53px] h-[43px] sm:max-w-[125px] max-w-[120px]"
+                                    className="w-full sm:h-[53px] sm:max-w-[125px] max-w-[120px]"
                                 />
                             </div>
                                 <div className="sm:w-4/12 w-6/12 flex lg:justify-end justify-center">
                                 <img
                                         src={cloudimg4}
                                         alt="cloudimg4"
-                                    className="w-full sm:h-[92px] h-[82px] sm:max-w-[172px] max-w-[120px]"
+                                    className="w-full sm:h-[92px] sm:max-w-[172px] max-w-[120px]"
                                 />
                             </div>
                                 <div className="sm:w-4/12 w-6/12 flex lg:justify-end justify-center">
                                 <img
                                         src={cloudimg5}
                                         alt="cloudimg5"
-                                    className="w-full sm:h-[56px] h-[46px] sm:max-w-[168px] max-w-[120px]"
+                                    className="w-full sm:h-[56px] sm:max-w-[168px] max-w-[120px]"
                                 />
                             </div>
                                 <div className="sm:w-4/12 w-6/12 flex lg:justify-end justify-center">
                                 <img
                                         src={cloudimg6}
                                         alt="cloudimg6"
-                                    className="w-full sm:h-[47px] h-[37px] sm:max-w-[143px] max-w-[120px]"
+                                    className="w-full sm:h-[47px] sm:max-w-[143px] max-w-[120px]"
                                 />
                             </div>
                         </div>
